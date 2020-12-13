@@ -5,4 +5,5 @@ if __name__ == '__main__':
     test.readFromFile()
     #test.readFromJson("{\"nodes\" : \"5\",\"edges\" : [ { \"node\": \"1\", \"edge\": \"2 5\" },{ \"node\": \"2\", \"edge\": \"4\" }, { \"node\": \"3\", \"edge\": \"4\" }, { \"node\": \"5\", \"edge\": \"3\" } ] }")
     #test.readFromJson()
+    test.addEdge(2,6)
     test.display()
